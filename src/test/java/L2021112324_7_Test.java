@@ -48,7 +48,7 @@ public class L2021112324_7_Test {
         List<Integer> test3_p_3 = new ArrayList<>();
         test3_p_3.add(0);test3_p_3.add(2);                                      // [0,2]
         test3_p.add(test3_p_1);test3_p.add(test3_p_2);test3_p.add(test3_p_3);   // [[0,3],[1,2],[0,2]]
-        Assert.assertEquals("abdc",testSolution7.smallestStringWithSwaps(test3_s,test3_p));
+        Assert.assertEquals("abcd",testSolution7.smallestStringWithSwaps(test3_s,test3_p));
     }
 
 } 
