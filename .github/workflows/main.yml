@@ -18,3 +18,13 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
       - name: Run tests with Maven
         run: mvn -B test --file pom.xml
+      - name: Run merge script
+        uses: klay-ke/auto-merge-pr@master
+        id: merge-pr
+        with:
+          send-to-dingtalk-group: true
+          dingtalk-access-token: ${{ secrets.DINGTALK_ACCESS_TOKEN }}
+          dingtalk-secret: ${{ secrets.DINGTALK_SECRET }}
+          maintainer-team-name: ${{ secrets.MAINTAINER_TEAM_NAME }}
+          gh-token: ${{ secrets.GH_TOKEN }}
+          ci-command: 'bash ./build.sh'
