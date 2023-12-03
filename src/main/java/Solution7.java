@@ -130,4 +130,4 @@ public class Solution7 {
     }
 }
 //test branch
-//test Jenkins   
+//test Jenkins

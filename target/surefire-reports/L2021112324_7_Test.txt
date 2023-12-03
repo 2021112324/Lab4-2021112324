@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: L2021112324_7_Test
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.050 s -- in L2021112324_7_Test
